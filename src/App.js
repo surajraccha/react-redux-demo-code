@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import  Todos from './Todos';
+import React from 'react'
+import store from './store';
+import ItemList from './ItemList'
 function App() {
-  return (
-    <div className="App">
-    <Todos/>
-    </div>
-  );
+    return (
+        <div>
+            <ItemList/>
+        </div>
+    )
 }
 
-export default App;
+export default App
